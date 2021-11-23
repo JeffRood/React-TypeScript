@@ -11,7 +11,7 @@ import { TiposBasicos } from './TypeScript/TiposBasicos';
     <div className="mt-2">
       <h1> Introduccion a Ts-React </h1>
          <br />
-    <h2 style={{textAlign: 'center'}}> Componentess </h2>
+    <h2 style={{textAlign: 'center'}}> Componentes </h2>
         <hr/>
       <Contador />
   <hr />
