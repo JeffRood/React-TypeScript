@@ -2,6 +2,9 @@ import React from 'react';
 
 import { Contador } from './Components/Contador';
 import { ContadorHook } from './Components/ContadorHook';
+import { Formularios } from './Components/Formularios';
+import { Login } from './Components/Login';
+import { Users } from './Components/Usuario';
 import Funciones from './TypeScript/Funciones';
 import { ObjectosLiterales } from './TypeScript/ObjectosLiterales';
 import { TiposBasicos } from './TypeScript/TiposBasicos';
@@ -12,6 +15,13 @@ import { TiposBasicos } from './TypeScript/TiposBasicos';
       <h1> Introduccion a Ts-React </h1>
          <br />
     <h2 style={{textAlign: 'center'}}> Componentes </h2>
+  <hr />
+    <Formularios/>
+  <hr />
+
+    <Users/>
+  <hr />
+  <Login/>
         <hr/>
       <Contador />
   <hr />
